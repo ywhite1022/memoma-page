@@ -1,0 +1,264 @@
+button {
+    border: none;
+}
+
+.home {
+    background-image: url("../img/home_background1.png");
+    background-repeat: no-repeat;
+    width: 1280px;
+    height: 792px;
+}
+
+.title_img {
+    margin-left: 30px;
+}
+
+#home_image {
+    position: absolute;
+    margin-top: 104px;
+    margin-bottom: 224px;
+    margin-left: 585px;
+}
+
+.home #home_title {
+    position: absolute;
+    margin-top: 427px;
+    margin-bottom: 154px;
+    margin-left: 30px;
+}
+
+.introduction {
+    width: 1280px;
+    height: 939px;
+    background-image: url("../img/home_background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introduction #intro_title {
+    margin-bottom: 42px;
+    text-align: center;
+    font: normal normal normal 30px/36px MS Gothic;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+}
+
+.centering {
+    text-align: center;
+}
+
+
+.introduction #intro_text {
+    margin-top: 62px;
+    margin-left: 240px;
+    margin-right: 240px;
+    width: 800px;
+    height: 182px;
+    text-align: center;
+    font: normal normal normal 20px/38px Meiryo;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.introduction button {
+    text-align: center;
+    margin-top: 56px;
+    cursor: pointer;
+    width: 227px;
+    height: 45px;
+    background: #B12929 0% 0% no-repeat padding-box;
+    font: normal normal bold 16px/24px Meiryo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.course {
+    width: 1280px;
+}
+
+.course .course_title {
+    margin-top: 100px;
+    margin-bottom: 56px;
+    text-align: center;
+    font: normal normal normal 30px/36px MS Gothic;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+}
+
+.box {
+    display: inline-block;
+    margin-bottom: 48px;
+}
+
+.course #spe_box {
+    margin-left: 30px;
+}
+
+.course #bas_box {
+    margin-left: 23px;
+    margin-right: 22px;
+}
+
+.box .course_name {
+    margin-top: 22px;
+    font: normal normal normal 30px/36px MS Gothic;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+}
+
+.box .monthly {
+    margin-top: 16px;
+    font: normal normal normal 20px/25px Hiragino Sans;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+}
+
+.box .course_text {
+    margin-top: 26px;
+    width: 390px;
+    height: 109px;
+    text-align: left;
+    font: normal normal normal 16px/25px Hiragino Sans;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+}
+
+.box .benefits {
+    margin-top: 6px;
+}
+
+.course .course_button {
+    text-align: center;
+}
+
+.course button {
+    margin-top: 56px;
+    cursor: pointer;
+    width: 227px;
+    height: 45px;
+    background: #B12929 0% 0% no-repeat padding-box;
+    font: normal normal bold 16px/24px Meiryo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.topics {
+    width: 1280px;
+    background: #F4F6F8 0% 0% no-repeat padding-box;
+}
+
+.topics .topics_title {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    font: normal normal normal 30px/36px MS Gothic;
+    letter-spacing: 0px;
+    color: #262626;
+    opacity: 1;
+}
+
+.topics .topics_table {
+    margin-left: 122px;
+    margin-right: 26px;
+    margin-bottom: 81px;
+}
+
+.table_line {
+    display: table;
+}
+
+.block {
+    display: table-cell;
+}
+
+.topics .block {
+    width: 354px;
+}
+
+.topics .block img {
+    margin-bottom: 17px;
+}
+
+.topics .block .table_title {
+    margin-bottom: 14px;
+    height: 27px;
+    text-align: left;
+    font: normal normal bold 18px/27px Meiryo;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.topics .block .table_text {
+    margin-bottom: 20px;
+    width: 328px;
+    height: 81px;
+    text-align: left;
+    font: normal normal normal 16px/24px Meiryo;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.links {
+    width: 1280px;
+}
+
+.links .banner_table{
+    margin-top: 46px;
+    margin-left: 126px;
+}
+
+.links .table_line {
+    margin-right: 20px;
+}
+
+.banner_table .block {
+    width: 328px;
+    height: 118px;
+    background: transparent url('../img/banner.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    vertical-align: middle;
+    font: normal normal normal 30px/45px Meiryo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.links .container {
+    margin-top: 46px;
+    margin-left: 126px;
+    text-align: center;
+}
+
+.links .box_line{
+    margin-right: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 40px;
+
+}
+
+.links .banner_box {
+    width: 328px;
+    height: 118px;
+    margin-right: 20px;
+    background: transparent url('../img/banner.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    vertical-align: middle;
+    font: normal normal normal 30px/45px Meiryo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+
