@@ -9,8 +9,25 @@ button {
     height: 792px;
 }
 
-.title_img {
+.text_img {
     margin-left: 30px;
+    position: absolute;
+}
+
+#about_text_img {
+    margin-top: 745px;
+}
+
+#course_text_img {
+    margin-top: 1695px;
+}
+
+#topics_text_img {
+    margin-top: 2735px;
+}
+
+#links_text_img {
+    margin-top: 3680px;
 }
 
 #home_image {
@@ -29,13 +46,15 @@ button {
 
 .introduction {
     width: 1280px;
-    height: 939px;
+    padding-top: 55px;
+    padding-bottom: 86px;
     background-image: url("../img/home_background2.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .introduction #intro_title {
+    
     margin-bottom: 42px;
     text-align: center;
     font: normal normal normal 30px/36px MS Gothic;
@@ -76,10 +95,10 @@ button {
 
 .course {
     width: 1280px;
+    padding-top: 53px;
 }
 
 .course .course_title {
-    margin-top: 100px;
     margin-bottom: 56px;
     text-align: center;
     font: normal normal normal 30px/36px MS Gothic;
@@ -90,7 +109,7 @@ button {
 
 .box {
     display: inline-block;
-    margin-bottom: 48px;
+    margin-bottom: 81px;
 }
 
 .course #spe_box {
@@ -153,6 +172,7 @@ button {
 
 .topics {
     width: 1280px;
+    padding-top: 52px;
     background: #F4F6F8 0% 0% no-repeat padding-box;
 }
 
@@ -169,7 +189,7 @@ button {
 .topics .topics_table {
     margin-left: 122px;
     margin-right: 26px;
-    margin-bottom: 81px;
+    padding-bottom: 81px;
 }
 
 .table_line {
@@ -211,6 +231,7 @@ button {
 
 .links {
     width: 1280px;
+    padding-top: 91px;
 }
 
 .links .banner_table{
@@ -235,7 +256,6 @@ button {
 }
 
 .links .container {
-    margin-top: 46px;
     margin-left: 126px;
     text-align: center;
 }

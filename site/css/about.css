@@ -48,8 +48,9 @@ button {
     position: absolute;
     margin-left: 436px;
     margin-top: 641px;
+    padding: 20px;
     width: 814px;
-    height: 166px;
+    height: 130px;
     background-color: rgba(0, 0, 0, 0.44);
     text-align: left;
     font: normal normal normal 14px/22px Hiragino Kaku Gothic ProN;
