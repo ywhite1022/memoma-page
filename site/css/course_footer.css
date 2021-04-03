@@ -1,0 +1,30 @@
+.course_footer {
+    width: 1280px;
+    height: 103px;
+
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    font: normal normal normal 24px/23px Hiragino Sans;
+    background-color: rgba(255 , 255, 255, 0.8);
+    letter-spacing: 0px;
+    color: #262626;
+
+}
+
+.course_footer span {
+    font: normal normal normal 37px/23px Hiragino Sans;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: #B12929;
+}
+
+.course_footer img {
+    margin-top: 19px;
+    margin-left: 101px;
+}
+
+footer {
+    margin-bottom: 103px;
+}

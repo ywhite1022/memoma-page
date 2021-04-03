@@ -1,18 +1,19 @@
-
 header {
     width: 1280px;
     height: 74px;
     
     /* UI Properties */
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 1);
     /* opacity: 0.5; */
     z-index: 9999;
+    position:fixed;
+    top: 0;
 }
 
 .header_logo {
 margin-top: 12.05px;
 margin-left: 4px;
-margin-right: 413.98px;
+margin-right: 224px;
 margin-bottom: 10px;
 width: 148px;
 height: 52px;
@@ -23,8 +24,6 @@ background: transparent url('img/グループ 73.png') 0% 0% no-repeat padding-b
 opacity: 1;
 }
 
-/*
-*/
 header button {
     margin-top: 26px;
     margin-bottom: 24px;
@@ -69,7 +68,7 @@ header #question {
     margin-left: 580px;
 }
 
-.introduction {
-    width: 1280px;
-    height: 792px;
+header #shop {
+    height: 26px;
+    margin-left: 700px;
 }
